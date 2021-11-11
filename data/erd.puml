@@ -1,0 +1,37 @@
+@startuml
+
+' hide the spot
+hide circle
+
+' avoid problems with angled crows feet
+skinparam linetype ortho
+
+entity "Product" as e01 {
+  *id : number <<generated>>
+  --
+  *name : text
+  *description : text
+  *vendor : text
+  *price : number
+  *currency : text
+  --
+  *MainCategory : <<FK>>
+  *Images : <<(FK..n)>>
+}
+
+entity "Category" as e02 {
+  *id : number <<generated>>
+  *name : text
+  *products : <<(FK..n)>>
+}
+
+entity "Product Image" as e03 {
+  *id : number <<generated>>
+  *value : binary
+}
+
+e01 ||..|{ e02
+e01 ||--o{ e03
+e02 }|--|| e01
+
+@enduml
