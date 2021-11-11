@@ -1,0 +1,47 @@
+[
+  {
+    "price": "99.0",
+    "vendor": "Amazon",
+    "name": "Test",
+    "description": "This is a description",
+    "_class": "io.redis.domain.Product",
+    "id": "999",
+    "category": "CATEGORY"
+  },
+  {
+    "price": "79.99",
+    "vendor": "Amazon",
+    "id": "001",
+    "name": "Kindle Paperwhite",
+    "description": "Waterproof, 6 inch High-Resolution Display, 32 GB, Black",
+    "currency": "GBP",
+    "category": "E-Reader"
+  },
+  {
+    "price": "49.99",
+    "vendor": "Amazon",
+    "id": "011",
+    "name": "Kindle Fire 7 Tablet",
+    "description": "7 inch display, 16 GB, Black",
+    "currency": "GBP",
+    "category": "Tablet"
+  },
+  {
+    "price": "194.00",
+    "vendor": "Samsung",
+    "id": "014",
+    "name": "Samsung Galaxy Tab A7",
+    "description": "Samsung Galaxy Tab A7 32 GB Wi-Fi Android Tablet - Dark Grey (UK Version)",
+    "currency": "GBP",
+    "category": "Tablet"
+  },
+  {
+    "price": "319.00",
+    "vendor": "Apple",
+    "id": "012",
+    "name": "Apple Ipad",
+    "description": "2021 Apple iPad (10.2-inch iPad, Wi-Fi, 64GB) - Space Grey (9th Generation)",
+    "currency": "GBP",
+    "category": "Tablet"
+  }
+]

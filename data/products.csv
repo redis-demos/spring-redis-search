@@ -1,0 +1,6 @@
+product_id,name,description,vendor,price,currency,category
+001,Kindle Paperwhite,"Waterproof, 6 inch High-Resolution Display, 32 GB, Black",Amazon,79.99,GBP,E-Reader
+011,Kindle Fire 7 Tablet,"7 inch display, 16 GB, Black",Amazon,49.99,GBP,Tablet
+012,Apple Ipad,"2021 Apple iPad (10.2-inch iPad, Wi-Fi, 64GB) - Space Grey (9th Generation)",Apple,319.00,GBP,Tablet
+013,Apple Ipad Air,"2020 Apple iPad Air (10.9-inch, Wi-Fi, 64GB) - Space Grey (4th Generation)",Apple,549.98,GBP,Tablet
+014,Samsung Galaxy Tab A7,"Samsung Galaxy Tab A7 32 GB Wi-Fi Android Tablet - Dark Grey (UK Version)",Samsung,194.00,GBP,Tablet
