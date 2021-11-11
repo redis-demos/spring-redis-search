@@ -10,7 +10,7 @@ The logical data model is separate from the DBMS being used...it defines the str
 - 1 `Product` (MainCategory) to 1 `Category`
 - 1 `Category` to many `Product's`
 
-![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/redis-demos/spring-redis-search/master/data/erd.puml?token=AAPQMPV7GXOHXE6ZJ4S7KMDBRVBSW)
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/redis-demos/spring-redis-search/master/data/erd.puml)
 
 Or the raw data structure: 
 
@@ -51,7 +51,7 @@ Or the raw data structure:
 
 - Roll the ERD diagram into a flat hash structure
 
-![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/redis-demos/spring-redis-search/master/data/hash.puml?token=AAPQMPTT7OQKPC45WGD46VTBRVDDG)
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/redis-demos/spring-redis-search/master/data/hash.puml)
 
 #### Implementation 
 
