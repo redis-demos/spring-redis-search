@@ -1,0 +1,22 @@
+@startuml
+
+' hide the spot
+hide circle
+
+' avoid problems with angled crows feet
+skinparam linetype ortho
+
+entity "Product" as e01 {
+  *key : string <<product:{id}>>
+  --
+  *id : number 
+  *name : text
+  *description : text
+  *vendor : text
+  *price : number
+  *currency : text
+  *category : text
+  *image[n] : binary
+}
+
+@enduml
